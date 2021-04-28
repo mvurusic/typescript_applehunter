@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "strict": true,
+    "module": "AMD", //"commonjs",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    // "lib": [
+    //   "es6",
+    //   "dom"
+    // ],
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "rootDir": "src",
+    // "outDir": "./lib/",
+    "moduleResolution": "node"
+    // "typeRoots": [
+    //   "./three"
+    // ]
+  },
+  "include": [
+    "src/**/*",
+    "src/lib/",
+    "src/lib/**/*",
+    "src/lib/*",
+    "src/lib/***/**/*"
+  ]
+}
